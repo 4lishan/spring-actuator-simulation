@@ -16,6 +16,18 @@ In this project, a spring-based actuator was integrated into a mechanical system
 - **Force Distribution**: Graph illustrating the force applied to the translational joint in the X direction, highlighting the energy input from the actuator.
 - **GIF Animation**: A dynamic animation to visually represent the model's behavior over time.
 
+## Visualizations
+
+### Deformation Plot
+![Deformation Plot](deformation_plot.png)
+
+### Force in X Direction Plot
+![Force in X Direction Plot](force_x_plot.png)
+
+### Animation
+![System Animation](animation.gif)
+
+
 ## Files in This Repository
 
 - `model.wbpj`: The Ansys Workbench project file containing the simulation setup and configurations.
@@ -37,3 +49,8 @@ To get started with this simulation, follow these steps:
 1. Clone or download this repository to your local machine.
    ```bash
    git clone https://github.com/4lishan/spring-actuator-simulation.git
+2. Open the model.wbpj file in Ansys Workbench to review and interact with the simulation.
+### Results
+The simulation demonstrates that the spring-based actuator contributes significant energy to the system, resulting in a reduction in cycle time. Key findings include:
+The actuator's force input effectively reduces the time required to complete a cycle by applying a controlled force to the translational joint.
+The total deformations of the system remain within acceptable limits, ensuring structural integrity while improving efficiency.
