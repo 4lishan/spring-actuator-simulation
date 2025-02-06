@@ -27,6 +27,10 @@ In this project, a spring-based actuator was integrated into a mechanical system
 ### Animation
 ![System Animation](animation.gif)
 
+### Results
+The simulation demonstrates that the spring-based actuator contributes significant energy to the system, resulting in a reduction in cycle time. Key findings include:
+The actuator's force input effectively reduces the time required to complete a cycle by applying a controlled force to the translational joint.
+The total deformations of the system remain within acceptable limits, ensuring structural integrity while improving efficiency.
 
 ## Files in This Repository
 
@@ -50,7 +54,3 @@ To get started with this simulation, follow these steps:
    ```bash
    git clone https://github.com/4lishan/spring-actuator-simulation.git
 2. Open the model.wbpj file in Ansys Workbench to review and interact with the simulation.
-### Results
-The simulation demonstrates that the spring-based actuator contributes significant energy to the system, resulting in a reduction in cycle time. Key findings include:
-The actuator's force input effectively reduces the time required to complete a cycle by applying a controlled force to the translational joint.
-The total deformations of the system remain within acceptable limits, ensuring structural integrity while improving efficiency.
